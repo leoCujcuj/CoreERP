@@ -1,0 +1,11 @@
+@InventariosAPI_HostAddress = http://localhost:5107
+
+GET {{InventariosAPI_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{InventariosAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

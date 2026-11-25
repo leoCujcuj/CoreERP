@@ -1,0 +1,11 @@
+@ClientesAPI_HostAddress = http://localhost:5213
+
+GET {{ClientesAPI_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{ClientesAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
