@@ -36,6 +36,9 @@ bld/
 ## User-specific / Local Configuration files
 appsettings.*.local.json
 *.local.json
+.env
+*.env
+!.env.example
 
 ## Test results
 [Tt]est[Rr]esult*/
